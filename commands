@@ -1,0 +1,23 @@
+UNDO A LAST LOCAL COMMIT
+
+# use --soft if you want to keep your changes
+git reset --soft HEAD^
+
+# use --hard if you don't care about keeping the changes you made
+git reset --hard HEAD^
+
+---------------------------------
+UNDO A LAST PUBLIC COMMIT
+
+git revert HEAD
+
+---------------------------------
+FIX UP THE MOST RECENT COMMIT
+
+git commit --amend
+
+---------------------------------
+REMOVE FROM YOUR TREE DELETED REMOTE BRANCHES
+
+git remote prune origin
+
