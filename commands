@@ -21,3 +21,8 @@ REMOVE FROM YOUR TREE DELETED REMOTE BRANCHES
 
 git remote prune origin
 
+---------------------------------
+CHECKOUT A SINGLE FILE TO A SPECIFIC BRANCH
+
+git checkout <BRANCH> -- <fILE>
+(you need to commit it again)
