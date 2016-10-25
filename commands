@@ -17,6 +17,11 @@ FIX UP THE MOST RECENT COMMIT
 git commit --amend
 
 ---------------------------------
+REMOVE A REMOTE BRANCH
+
+git push origin :<branch_name>
+
+---------------------------------
 REMOVE FROM YOUR TREE DELETED REMOTE BRANCHES
 
 git remote prune origin
