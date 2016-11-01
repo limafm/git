@@ -31,3 +31,10 @@ CHECKOUT A SINGLE FILE TO A SPECIFIC BRANCH
 
 git checkout <BRANCH> -- <fILE>
 (you need to commit it again)
+
+---------------------------------
+UNDO A MERGE (before push)
+
+git reflog
+# use the id of the commit what you want to undo
+git reset --hard 36a18be
