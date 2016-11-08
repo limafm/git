@@ -38,3 +38,15 @@ UNDO A MERGE (before push)
 git reflog
 # use the id of the commit what you want to undo
 git reset --hard 36a18be
+
+---------------------------------
+REMOVE A LOCAL TAG
+
+git tag -d <tagname>
+
+---------------------------------
+REMOVE A REMOTE TAG
+
+git push origin :<tagname>
+or
+git push --delete origin <tagname>
