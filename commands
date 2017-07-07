@@ -50,3 +50,10 @@ REMOVE A REMOTE TAG
 git push origin :<tagname>
 or
 git push --delete origin <tagname>
+
+---------------------------------
+RESET HARD!!!
+
+git checkout master
+git reset --hard 7a62674ba3df0853c63539175197a16122a739ef
+git push -f origin master
