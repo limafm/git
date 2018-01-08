@@ -57,3 +57,8 @@ RESET HARD!!!
 git checkout master
 git reset --hard 7a62674ba3df0853c63539175197a16122a739ef
 git push -f origin master
+
+---------------------------------
+Change the mergetools editor
+
+git config --global core.editor "vim"
