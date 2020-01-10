@@ -62,3 +62,8 @@ git push -f origin master
 Change the mergetools editor
 
 git config --global core.editor "vim"
+
+---------------------------------
+Quick rebase: remove only a specific commit using its id:
+
+git rebase --onto commit-id^ commit-id
